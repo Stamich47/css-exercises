@@ -8,7 +8,9 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/*--Changed .small-para to ".para.small-para" to adjusted font size down--*/
+
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +19,9 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+/*-- Changed .button to ".confirm.button" to adjust green confirm button*/
+
+.confirm.button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +33,9 @@ body {
   font-size: 20px;
 }
 
-.child {
+/*-- added ".text" identifier in front of .child to specify that only the smallest child div will change --*/
+
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
